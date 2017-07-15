@@ -52,6 +52,11 @@ heritage()
 
 ```
 
+## See also
+
+- [world-heritage](https://github.com/juliuste/world-heritage) - UNESCO world heritage sites
+- [commons-photo-url](https://github.com/derhuerst/commons-photo-url) - Generate the Wikimedia Commons URL of a photo
+
 ## Contributing
 
 If you found a bug, want to propose a feature or feel the urge to complain about your life, feel free to visit [the issues page](https://github.com/juliuste/world-heritage-image/issues).

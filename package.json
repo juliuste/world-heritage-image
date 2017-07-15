@@ -1,7 +1,7 @@
 {
 	"name": "world-heritage-image",
 	"description": "Wikimedia images for UNESCO world heritage sites",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"keywords": [
 		"UNESCO",
 		"world heritage",

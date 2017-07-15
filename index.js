@@ -10,7 +10,7 @@ const extractImage = (res) => {
     if(!res) return null
     const e = toArray(res)[0]
     if(!e || !e.claims || !e.claims.P18 || !e.claims.P18[0] || !e.claims.P18[0].length >= 4) return null
-    return e.claims.P18[0]
+    return e.claims.P18[0].split(' ').join('_')
 }
 
 const image = (id) =>

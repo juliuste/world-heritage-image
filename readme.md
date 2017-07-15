@@ -26,7 +26,7 @@ heritage(heritageID).then(…)
 Returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/promise) that will resolve in a wikimedia commons photo file name:
 
 ```js
-heritage(3).then(console.log) // => 'Aachener_Dom.jpg'
+heritage(3).then(console.log) // => 'Aachener Dom.jpg'
 heritage(402384).then(console.log) // => null
 ```
 

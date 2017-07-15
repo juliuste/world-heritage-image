@@ -1,0 +1,39 @@
+{
+	"name": "world-heritage-image",
+	"description": "Wikimedia images for UNESCO world heritage sites",
+	"version": "0.0.0",
+	"keywords": [
+		"UNESCO",
+		"world heritage",
+		"heritage",
+		"united nations",
+		"UN",
+		"UNO",
+		"wikimedia"
+	],
+	"author": "Julius Tens <mail@juliustens.de>",
+	"homepage": "https://github.com/juliuste/world-heritage-image",
+	"repository": "juliuste/world-heritage-image",
+	"bugs": "https://github.com/juliuste/world-heritage-image/issues",
+	"main": "./index.js",
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"fetch-ponyfill": "^4.1.0",
+		"lodash.toarray": "^4.4.0",
+		"pinkie-promise": "^2.0.1",
+		"wikidata-sdk": "^5.2.2"
+	},
+	"devDependencies": {
+		"tape": "^4.7.0"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"prepublish": "npm test"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"license": "MIT"
+}

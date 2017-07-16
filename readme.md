@@ -56,6 +56,7 @@ heritage()
 
 - [world-heritage](https://github.com/juliuste/world-heritage) - UNESCO world heritage sites
 - [commons-photo-url](https://github.com/derhuerst/commons-photo-url) - Generate the Wikimedia Commons URL of a photo
+- [world-heritage-twitter-bot](https://github.com/juliuste/world-heritage-twitter-bot) - UNESCO world heritage twitter bot
 
 ## Contributing
 

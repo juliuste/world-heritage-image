@@ -20,7 +20,7 @@
 		"index.js"
 	],
 	"dependencies": {
-		"fetch-ponyfill": "^4.1.0",
+		"fetch-ponyfill": "^5.0.0",
 		"lodash.toarray": "^4.4.0",
 		"pinkie-promise": "^2.0.1",
 		"wikidata-sdk": "^5.2.2"

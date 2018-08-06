@@ -13,7 +13,7 @@ const extractImage = (res) => {
     return e.claims.P18[0].split(' ').join('_')
 }
 
-const image = (id) =>
+const _image = (id) =>
     request(wikidata.getReverseClaims('P757', id+'')) // P757: World heritage site ID
     .then(wikidata.simplifySparqlResults)
     .then((res) => {
@@ -25,5 +25,11 @@ const image = (id) =>
     .then(wikidata.parse.wd.entities)
     .then(extractImage)
     .catch((err) => null)
+
+const image = async (id) => {
+    const withId = await _image(id)
+    if (withId) return withId
+    return _image(id+'-001')
+}
 
 module.exports = image

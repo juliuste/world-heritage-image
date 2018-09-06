@@ -23,7 +23,7 @@
 		"fetch-ponyfill": "^6.0.2",
 		"lodash.toarray": "^4.4.0",
 		"pinkie-promise": "^2.0.1",
-		"wikidata-sdk": "5.2.2"
+		"wikidata-sdk": "5.15.8"
 	},
 	"devDependencies": {
 		"tape": "^4.9.1"

@@ -1,3 +1,5 @@
+# :warning: UNMAINTAINED, PLEASE USE [WIKIDATA](https://www.wikidata.org)
+
 # world-heritage-image
 
 [![npm version](https://img.shields.io/npm/v/world-heritage-image.svg)](https://www.npmjs.com/package/world-heritage-image)
